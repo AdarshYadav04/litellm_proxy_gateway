@@ -1,5 +1,8 @@
-litellm[proxy]==1.89.3
-python-dotenv==1.0.1
-opentelemetry-api==1.29.0
-opentelemetry-sdk==1.29.0
+litellm==1.89.3
+litellm-proxy-extras==0.4.74
+fastapi
+uvicorn[standard]
 prisma==0.15.0
+python-dotenv==1.0.1
+apscheduler
+pyyaml

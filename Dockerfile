@@ -20,4 +20,4 @@ RUN SCHEMA_PATH=$(python -c "import litellm_proxy_extras, os; print(os.path.join
 
 EXPOSE 4000
 
-CMD ["litellm", "--config", "litellm_config.yaml", "--port", "4000", "--host", "0.0.0.0"]
+CMD ["litellm", "--config", "litellm_config.yaml", "--port", "4000", "--host", "0.0.0.0", "--num_workers", "1"]
